@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.new-task{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(176, 174, 174, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-cont{
+    /* border: 2px solid firebrick; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.create-form{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid salmon; */
+    background: rgb(238,190,211);
+    background: linear-gradient(90deg, rgba(238,190,211,1) 0%, rgba(219,232,246,1) 100%);
+}
+
+.new-title{
+    height: 13%;
+    /* border: 2px solid teal; */
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.new-title> h3{
+    font-weight: 700;
+    font-size: medium;
+}
+
+.new-body{
+    height: 87%;
+    /* border: 2px solid rebeccapurple; */
+    padding: 0 5%;
+}
+
+.forum{
+    height: 100%;
+    width: 100%;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.feild{
+    display: flex;
+    /* border: 2px solid tan; */
+    height: 10%;
+}
+
+.feild > label{
+    font-size: medium;
+    font-weight: 400;
+    width: 40%;
+}
+
+.feild> span{
+    width: 70%;
+}
+
+.inp{
+    width: 85%;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid grey;
+    height: 100%;
+    /* border: 2px solid greenyellow; */
+    padding: 1% 3%;
+    /* border: 2px solid tomato; */
+    border-radius: 4px;
+}
+
+.desc-inp{
+    padding: 3% 3%;
+}
+
+.desc-feild{
+    height: 20%;
+}
+
+.new-foot{
+    height: 13%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button{
+    width: 100%;
+    /* border: 2px solid orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button > button{
+    padding: 2% 10%;
+    border: none;
+    background-color: rgb(100, 100, 177);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}

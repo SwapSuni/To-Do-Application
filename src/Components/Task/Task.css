@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    padding: 2% 0;
+}
+
+.ele {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.del-btn {
+    padding: 3% 10%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
