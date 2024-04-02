@@ -43,12 +43,12 @@
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  height: 60%;
+  height: 60px;
 }
 
 .pic{
   height: 100%;
-  width: 10%;
+  width: 60px;
   border-radius: 50%;
   background-color: white;
   display: flex;
@@ -80,7 +80,7 @@
 table{
   width: 80%;
   /* border: 2px solid firebrick; */
-  height: 10%;
+  height: 40px;
 }
 
 thead{
@@ -150,4 +150,16 @@ thead{
   font-size: large;
   font-weight: 600;
   margin: 3%;
+}
+
+@media (max-width: 1140px) {
+  .layer1{
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 800px){
+  .heading-row> th{
+    font-size: small;
+  }
 }
